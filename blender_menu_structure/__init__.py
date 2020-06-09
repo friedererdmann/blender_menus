@@ -195,7 +195,8 @@ menu_hierarchy = {
             "A Sub Menu": {
                 "menu": {
                      "With One More Entry": {
-                        "operator": partial(an_example_with, "This works too!")}
+                        "operator": partial(an_example_with, "This works too!"),
+                        "tooltip": "I even have a tooltip"}
                         }
                     }
                 }
