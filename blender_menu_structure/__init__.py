@@ -152,7 +152,7 @@ def build_menus(menu_dict, parent_name="TOPBAR_MT_editor_menus"):
                 icon_value=icon,
                 parent_name=parent_name)
             build_menus(entry["menu"], bl_idname)
-        if "operator" in entry:
+        elif "operator" in entry:
             add_operator(
                 name=key,
                 callback=entry["operator"],

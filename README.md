@@ -8,11 +8,11 @@ Throw into your addon folder, activate the addon (`blender_menu_structure` or "D
 You can very simply just extend the dictionary `menu_hierarchy` if you just want to use the system as is.
 
 ### Menu Hierarchy
-* Dictionaries: Dictionaries translate to menus.
-    * Keys: Keys are menu entries or menu names
-* Nested dictionaries: Nested dictionaries become sub-menus
-* Functions: Functions become Menu entries and will spawn an operator
 * ---: Dashes become separators (regardless how many you use)
+* "menu" key is how we put in a submenu (as a dictionary value)
+* "operator" becomes an operator
+* Menus and Operators accept icons (either by Blender keyword or as png from the icon folder)
+* Operators accept tooltips
 
 ### Functions and Parameters
 Your menu entries can provide a function, but no parameters. We provide an example of using partial if you want to pass a function with parameters.
