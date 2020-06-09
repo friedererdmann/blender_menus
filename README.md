@@ -18,7 +18,7 @@ You can very simply just extend the dictionary `menu_hierarchy` if you just want
 Your menu entries can provide a function, but no parameters. We provide an example of using partial if you want to pass a function with parameters.
 
 ## Extending logic
-The `build_menus` and the corresponding `menu_hierarchy` dictionaries are meant as example code. It should be easy from this to extend the logic and build more meaningful menu systems, e.g. by passing richer objects with icons or better operator names, as well as checking for naming clashes with operators.
+The `build_menus` and the corresponding `menu_hierarchy` dictionaries are meant as example code. It should be easy from this to extend the logic and build more meaningful menu systems, e.g. checking for naming clashes with operators.
 
 If you want to contribute to this project, please feel free to send back your pushes.
 
