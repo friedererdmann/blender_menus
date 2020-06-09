@@ -37,7 +37,8 @@ def add_menu(name, parent_name="TOPBAR_MT_editor_menus"):
         (bpy.types.Menu,),
         {
             "bl_idname": bl_idname,
-            "bl_label": name
+            "bl_label": name,
+            "draw": draw
         })
 
     bpy.utils.register_class(my_menu_class)
