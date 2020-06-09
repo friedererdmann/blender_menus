@@ -102,6 +102,7 @@ def build_menus(menu_dict, parent_name="TOPBAR_MT_editor_menus"):
         menu_dict (dict): A dictionary with keys for menu entries and callables or dictionarys as values.
         parent_name (str, optional): What Blender menu should this be nested into. Defaults to "TOPBAR_MT_editor_menus".
     """
+
     for entry in menu_dict:
         if type(menu_dict[entry]) is dict:
             bl_idname = add_menu(entry, parent_name)
@@ -115,6 +116,7 @@ def build_menus(menu_dict, parent_name="TOPBAR_MT_editor_menus"):
 def an_example():
     """A simple example method to call in our example menu.
     """
+
     print("An Example!")
 
 
@@ -125,6 +127,7 @@ def an_example_with(parameter):
     Args:
         parameter (str, int, float): We will call print() on this.
     """
+
     print(parameter)
 
 
