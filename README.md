@@ -1,6 +1,8 @@
 # Blender Menus
 A simple menu generator for the Blender UI system
 
+![Screenshot](https://github.com/friedererdmann/blender_menus/blob/master/screenshot.jpg?raw=true "Screenshot of generated menu system")
+
 ## Testing
 Throw into your addon folder, activate the addon (`blender_menu_structure` or "Dynamically created Blender Menu" in the UI) - see the menu!
 
